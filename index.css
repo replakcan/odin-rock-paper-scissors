@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  min-width: 100px;
+  margin-bottom: 2rem;
+  padding: 0.3rem 1.2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: gray;
+  color: black;
+  background-color: lightgreen;
+}
